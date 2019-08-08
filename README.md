@@ -1,1 +1,2 @@
-# EquatorWeather
+# WebVisualizationDashboard
+Web Visualization Dashboard
