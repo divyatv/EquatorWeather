@@ -100,7 +100,7 @@ display: inline;
 
 .img-nav-panel {
     width: 50%;
-    float: right;
+    display: flexbox;
     margin-bottom: 6pt;
     border-width: 2px;
     border-style: solid;
