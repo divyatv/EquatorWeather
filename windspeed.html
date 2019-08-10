@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <head>
-    <title>Max_temperature</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-    crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+    <title>Web Vizualisation</title>
+     <!-- Declare style sheet and js-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>Max temperature</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="stylesheet1.css">
 </head>
-<body>
 <header>
  <!-- navbar-->
- <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-    <a href ="index.html" class="navbar-brand">Latitude</a>
-      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-      
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-            <li>
-                <div class="dropdown">
-                    <button class="dropdown">Plots 
-                     <!--  <i class="fa fa-caret-down"></i> -->
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="max_temperature.html">Max Temperature</a>
-                        <a href="humidity.html">Humidity</a>
-                        <a href="cloudiness.html">Cloudiness</a>
-                        <a href="windspeed.html">Wind Speed</a>
+ <div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">Latitude</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+         data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle"
+                     data-toggle="dropdown">Plots</a>
+                    <div class="dropdown-menu">
+                        <a href="humidity.html" class="dropdown-item">Humidity</a>
+                        <a href="cloudiness.html" class="dropdown-item">Cloudiness</a>
+                        <a href="windspeed.html" class="dropdown-item">Windspeed</a>
+                        <a href="max_temperature.html" class="dropdown-item">Max Temperature</a>
                     </div>
-                  </div> 
-  
-              </li>
-          <!-- <li class="nav-item"><a href="#" class="nav-link">Plots</a></li> -->
-          <li class="nav-item"><a href="Comparision.html" class="nav-link">Comparision</a></li>
-          <li class="nav-item"><a href="Data.html" class="nav-link">Data</a></li>
-        </ul>
-    </div>
-</nav>
+                </div>
+                <a href="Comparision.html" class="nav-item nav-link active">Comparison</a>
+                <a href="Data.html" class="nav-item nav-link">Data</a>
+            </div>
+            
+        </div>
+    </nav>
+</div>
 </header>  
 
 <main> 
@@ -49,12 +54,12 @@
                     <h5 class="card-title">Windspeed Vs Latitude</h5>
                     <hr>
                     <img src="Images/Divya_Scatter_lat_windspeed.png"  class="img-fluid img-paragraph float-left mr-2 img" width="300px" alt="Responsive image">
-                    <p class="card-text">Wind is the movement of air caused by the uneven heating of the Earth by the sun. It does not have much substance—you
+                    <p class="card-text text-justify">Wind is the movement of air caused by the uneven heating of the Earth by the sun. It does not have much substance—you
                        cannot see it or hold it—but you can feel its force. It can dry your clothes in summer 
                        and chill you to the bone in winter. At the Equator, the sun warms the water and land more 
                        than it does the rest of the globe. </p>
-                   
-                   <br><p class="card-text">Windspeed appears to be mostly regular across latitudes, though with an absence of lower humidity values near the 
+                   <br>
+                   <br><p class="card-text text-justify">Windspeed appears to be mostly regular across latitudes, though with an absence of lower humidity values near the 
                       equator and Arctic. This makes sense, due to the humidity of tropical climates,
                          and the northern latitudes being on the boundary between winter and spring.</p>
                    </div>

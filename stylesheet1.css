@@ -11,15 +11,15 @@ body {
   background:#eff1f1;
 }
 .nav-link{
-  color:#090c0b;
-  cursor: pointer;
-  background-color: rgb(234, 240, 240);
+  color:#090c0b!important;
+  cursor: pointer !important;
+  background-color: rgb(234, 240, 240) !important;
 }
 .navbar-brand {
   font-size: x-large;
   font-weight: bold;
   font-family: Verdana;
-  color: rgb(11, 144, 161);
+  color: rgb(11, 144, 161)!important;
   cursor: pointer;
 
 }
@@ -91,6 +91,8 @@ display: inline;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
 .content-box {
     background-color: var(--foreground-color);
     margin: 30pt 5pt 10pt 5pt;
@@ -110,4 +112,7 @@ display: inline;
 
 .dropdown-backdrop{
   position: static;
+}
+.text-justify {
+  text-align: justify;
 }

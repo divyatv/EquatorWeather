@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <head>
-    <title>Data</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-    crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+    <title>Web Vizualisation</title>
+     <!-- Declare style sheet and js-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>Max temperature</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="stylesheet1.css">
 </head>
 <body>
 
  <!-- navbar-->
- <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-    <a href="index.html" class="navbar-brand">Latitude</a>
-      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-      
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-            <li>
-                <div class="dropdown">
-                    <button class="dropdown">Plots 
-                     <!--  <i class="fa fa-caret-down"></i> -->
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="max_temperature.html">Max Temperature</a>
-                        <a href="humidity.html">Humidity</a>
-                        <a href="cloudiness.html">Cloudiness</a>
-                        <a href="windspeed.html">Wind Speed</a>
+ <div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">Latitude</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+         data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle"
+                     data-toggle="dropdown">Plots</a>
+                    <div class="dropdown-menu">
+                        <a href="humidity.html" class="dropdown-item">Humidity</a>
+                        <a href="cloudiness.html" class="dropdown-item">Cloudiness</a>
+                        <a href="windspeed.html" class="dropdown-item">Windspeed</a>
+                        <a href="max_temperature.html" class="dropdown-item">Max Temperature</a>
                     </div>
-                  </div> 
-  
-              </li>
-          <!-- <li class="nav-item"><a href="#" class="nav-link">Plots</a></li> -->
-          <li class="nav-item"><a href="Comparision.html" class="nav-link">Comparision</a></li>
-          <li class="nav-item"><a href="Data.html" class="nav-link">Data</a></li>
-        </ul>
-  
-      </div>
+                </div>
+                <a href="Comparision.html" class="nav-item nav-link active">Comparison</a>
+                <a href="Data.html" class="nav-item nav-link">Data</a>
+            </div>
+            
+        </div>
     </nav>
+</div>
   </header>  
   <main>  
 
